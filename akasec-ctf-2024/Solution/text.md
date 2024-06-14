@@ -80,8 +80,10 @@ if __name__ == "__main__":
 
 # Risks
 ## Overview
-- Ta nhận đc 1 file RISC_V
+- Ta nhận đc 1 file RISC_V.
+
 ![Alt text](./images_2/image.png)
+
 - Ta không thể decompile lại trên IDA.
 
 
