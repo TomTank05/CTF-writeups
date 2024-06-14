@@ -83,7 +83,11 @@ if __name__ == "__main__":
 - Ta nhận đc 1 file RISC_V
 ![Alt text](./images_2/image.png)
 - Ta không thể decompile lại trên IDA.
+
+
 ![Alt text](./images_2/image-1.png)
+
+
 => Thử trên ghidra.
 ```
 undefined8 main(void)
@@ -114,7 +118,7 @@ undefined8 main(void)
   return 0;
 }
 ```
-- Vào hàm FUN_00101ad4(), FUN_00101346(), FUN_00100c8c(), FUN_00100786() làm biến đổi local_28, local_20 cũng như ta cũng cần phải thỏa mãn điều kiện để in ra *good job!*.
+- Vào hàm ``FUN_00101ad4()``, ``FUN_00101346()``, ``FUN_00100c8c()``, ``FUN_00100786()`` làm biến đổi local_28, local_20 cũng như ta cũng cần phải thỏa mãn điều kiện để in ra *good job!*.
 - Ngoài lVar2 == 0x20, cVar1 phải return 1 => return FUN-001020be(local_20) = 1.
 ```
 undefined8 FUN_001020be(long *param_1)
